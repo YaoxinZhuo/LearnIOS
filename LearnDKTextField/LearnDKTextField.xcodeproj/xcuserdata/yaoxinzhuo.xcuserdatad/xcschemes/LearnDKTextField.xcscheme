@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A6E431D1C8A75BD0031DDAD"
+               BlueprintIdentifier = "9AC896DC1C8BF5D200C4E592"
                BuildableName = "LearnDKTextField.app"
                BlueprintName = "LearnDKTextField"
                ReferencedContainer = "container:LearnDKTextField.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A6E43361C8A75BD0031DDAD"
+               BlueprintIdentifier = "9AC896F51C8BF5D300C4E592"
                BuildableName = "LearnDKTextFieldTests.xctest"
                BlueprintName = "LearnDKTextFieldTests"
                ReferencedContainer = "container:LearnDKTextField.xcodeproj">
@@ -42,27 +42,17 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A6E43411C8A75BD0031DDAD"
+               BlueprintIdentifier = "9AC897001C8BF5D300C4E592"
                BuildableName = "LearnDKTextFieldUITests.xctest"
                BlueprintName = "LearnDKTextFieldUITests"
                ReferencedContainer = "container:LearnDKTextField.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9CA23A2E1A034794007C9F5E"
-               BuildableName = "DKTextFieldTests.xctest"
-               BlueprintName = "DKTextFieldTests"
-               ReferencedContainer = "container:DKTextField/DKTextField.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A6E431D1C8A75BD0031DDAD"
+            BlueprintIdentifier = "9AC896DC1C8BF5D200C4E592"
             BuildableName = "LearnDKTextField.app"
             BlueprintName = "LearnDKTextField"
             ReferencedContainer = "container:LearnDKTextField.xcodeproj">
@@ -85,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A6E431D1C8A75BD0031DDAD"
+            BlueprintIdentifier = "9AC896DC1C8BF5D200C4E592"
             BuildableName = "LearnDKTextField.app"
             BlueprintName = "LearnDKTextField"
             ReferencedContainer = "container:LearnDKTextField.xcodeproj">
@@ -104,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A6E431D1C8A75BD0031DDAD"
+            BlueprintIdentifier = "9AC896DC1C8BF5D200C4E592"
             BuildableName = "LearnDKTextField.app"
             BlueprintName = "LearnDKTextField"
             ReferencedContainer = "container:LearnDKTextField.xcodeproj">

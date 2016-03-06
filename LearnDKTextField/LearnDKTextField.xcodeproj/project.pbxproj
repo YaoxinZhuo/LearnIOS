@@ -7,91 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A2512951C8A82FF00A65867 /* DKTextField in Resources */ = {isa = PBXBuildFile; fileRef = 9A25128E1C8A82FF00A65867 /* DKTextField */; };
-		9A2512961C8A82FF00A65867 /* DKTextFieldTests in Resources */ = {isa = PBXBuildFile; fileRef = 9A2512921C8A82FF00A65867 /* DKTextFieldTests */; };
-		9A2512971C8A82FF00A65867 /* intro1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A2512931C8A82FF00A65867 /* intro1.gif */; };
-		9A2512981C8A82FF00A65867 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9A2512941C8A82FF00A65867 /* README.md */; };
-		9A6E43231C8A75BD0031DDAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E43221C8A75BD0031DDAD /* main.m */; };
-		9A6E43261C8A75BD0031DDAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E43251C8A75BD0031DDAD /* AppDelegate.m */; };
-		9A6E43291C8A75BD0031DDAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E43281C8A75BD0031DDAD /* ViewController.m */; };
-		9A6E432C1C8A75BD0031DDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6E432A1C8A75BD0031DDAD /* Main.storyboard */; };
-		9A6E432E1C8A75BD0031DDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6E432D1C8A75BD0031DDAD /* Assets.xcassets */; };
-		9A6E43311C8A75BD0031DDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6E432F1C8A75BD0031DDAD /* LaunchScreen.storyboard */; };
-		9A6E433C1C8A75BD0031DDAD /* LearnDKTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E433B1C8A75BD0031DDAD /* LearnDKTextFieldTests.m */; };
-		9A6E43471C8A75BD0031DDAD /* LearnDKTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E43461C8A75BD0031DDAD /* LearnDKTextFieldUITests.m */; };
+		9AC896E21C8BF5D300C4E592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC896E11C8BF5D300C4E592 /* main.m */; };
+		9AC896E51C8BF5D300C4E592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC896E41C8BF5D300C4E592 /* AppDelegate.m */; };
+		9AC896E81C8BF5D300C4E592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC896E71C8BF5D300C4E592 /* ViewController.m */; };
+		9AC896EB1C8BF5D300C4E592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC896E91C8BF5D300C4E592 /* Main.storyboard */; };
+		9AC896ED1C8BF5D300C4E592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC896EC1C8BF5D300C4E592 /* Assets.xcassets */; };
+		9AC896F01C8BF5D300C4E592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC896EE1C8BF5D300C4E592 /* LaunchScreen.storyboard */; };
+		9AC896FB1C8BF5D300C4E592 /* LearnDKTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC896FA1C8BF5D300C4E592 /* LearnDKTextFieldTests.m */; };
+		9AC897061C8BF5D300C4E592 /* LearnDKTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC897051C8BF5D300C4E592 /* LearnDKTextFieldUITests.m */; };
+		9AC897151C8BF5E800C4E592 /* DKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC897141C8BF5E800C4E592 /* DKTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A25129B1C8A82FF00A65867 /* PBXContainerItemProxy */ = {
+		9AC896F71C8BF5D300C4E592 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A25128F1C8A82FF00A65867 /* DKTextField.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9CA23A161A034794007C9F5E;
-			remoteInfo = DKTextField;
-		};
-		9A25129D1C8A82FF00A65867 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A25128F1C8A82FF00A65867 /* DKTextField.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9CA23A2F1A034794007C9F5E;
-			remoteInfo = DKTextFieldTests;
-		};
-		9A6E43381C8A75BD0031DDAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A6E43161C8A75BD0031DDAD /* Project object */;
+			containerPortal = 9AC896D51C8BF5D200C4E592 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A6E431D1C8A75BD0031DDAD;
+			remoteGlobalIDString = 9AC896DC1C8BF5D200C4E592;
 			remoteInfo = LearnDKTextField;
 		};
-		9A6E43431C8A75BD0031DDAD /* PBXContainerItemProxy */ = {
+		9AC897021C8BF5D300C4E592 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A6E43161C8A75BD0031DDAD /* Project object */;
+			containerPortal = 9AC896D51C8BF5D200C4E592 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A6E431D1C8A75BD0031DDAD;
+			remoteGlobalIDString = 9AC896DC1C8BF5D200C4E592;
 			remoteInfo = LearnDKTextField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A25128E1C8A82FF00A65867 /* DKTextField */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DKTextField; path = DKTextField/DKTextField; sourceTree = "<group>"; };
-		9A25128F1C8A82FF00A65867 /* DKTextField.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DKTextField.xcodeproj; path = DKTextField/DKTextField.xcodeproj; sourceTree = "<group>"; };
-		9A2512921C8A82FF00A65867 /* DKTextFieldTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DKTextFieldTests; path = DKTextField/DKTextFieldTests; sourceTree = "<group>"; };
-		9A2512931C8A82FF00A65867 /* intro1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = intro1.gif; path = DKTextField/intro1.gif; sourceTree = "<group>"; };
-		9A2512941C8A82FF00A65867 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = DKTextField/README.md; sourceTree = "<group>"; };
-		9A6E431E1C8A75BD0031DDAD /* LearnDKTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnDKTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6E43221C8A75BD0031DDAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A6E43241C8A75BD0031DDAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9A6E43251C8A75BD0031DDAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A6E43271C8A75BD0031DDAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A6E43281C8A75BD0031DDAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9A6E432B1C8A75BD0031DDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A6E432D1C8A75BD0031DDAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A6E43301C8A75BD0031DDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9A6E43321C8A75BD0031DDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A6E43371C8A75BD0031DDAD /* LearnDKTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnDKTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6E433B1C8A75BD0031DDAD /* LearnDKTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnDKTextFieldTests.m; sourceTree = "<group>"; };
-		9A6E433D1C8A75BD0031DDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A6E43421C8A75BD0031DDAD /* LearnDKTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnDKTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6E43461C8A75BD0031DDAD /* LearnDKTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnDKTextFieldUITests.m; sourceTree = "<group>"; };
-		9A6E43481C8A75BD0031DDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC896DD1C8BF5D300C4E592 /* LearnDKTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnDKTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC896E11C8BF5D300C4E592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AC896E31C8BF5D300C4E592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AC896E41C8BF5D300C4E592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AC896E61C8BF5D300C4E592 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AC896E71C8BF5D300C4E592 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AC896EA1C8BF5D300C4E592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC896EC1C8BF5D300C4E592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC896EF1C8BF5D300C4E592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC896F11C8BF5D300C4E592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC896F61C8BF5D300C4E592 /* LearnDKTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnDKTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC896FA1C8BF5D300C4E592 /* LearnDKTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnDKTextFieldTests.m; sourceTree = "<group>"; };
+		9AC896FC1C8BF5D300C4E592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC897011C8BF5D300C4E592 /* LearnDKTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnDKTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC897051C8BF5D300C4E592 /* LearnDKTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnDKTextFieldUITests.m; sourceTree = "<group>"; };
+		9AC897071C8BF5D300C4E592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC897131C8BF5E800C4E592 /* DKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKTextField.h; path = ../../DKTextField.h; sourceTree = "<group>"; };
+		9AC897141C8BF5E800C4E592 /* DKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKTextField.m; path = ../../DKTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A6E431B1C8A75BD0031DDAD /* Frameworks */ = {
+		9AC896DA1C8BF5D200C4E592 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6E43341C8A75BD0031DDAD /* Frameworks */ = {
+		9AC896F31C8BF5D300C4E592 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6E433F1C8A75BD0031DDAD /* Frameworks */ = {
+		9AC896FE1C8BF5D300C4E592 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,78 +81,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A2512901C8A82FF00A65867 /* Products */ = {
+		9AC896D41C8BF5D200C4E592 = {
 			isa = PBXGroup;
 			children = (
-				9A25129C1C8A82FF00A65867 /* DKTextField.app */,
-				9A25129E1C8A82FF00A65867 /* DKTextFieldTests.xctest */,
+				9AC896DF1C8BF5D300C4E592 /* LearnDKTextField */,
+				9AC896F91C8BF5D300C4E592 /* LearnDKTextFieldTests */,
+				9AC897041C8BF5D300C4E592 /* LearnDKTextFieldUITests */,
+				9AC896DE1C8BF5D300C4E592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC896DE1C8BF5D300C4E592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC896DD1C8BF5D300C4E592 /* LearnDKTextField.app */,
+				9AC896F61C8BF5D300C4E592 /* LearnDKTextFieldTests.xctest */,
+				9AC897011C8BF5D300C4E592 /* LearnDKTextFieldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A6E43151C8A75BD0031DDAD = {
+		9AC896DF1C8BF5D300C4E592 /* LearnDKTextField */ = {
 			isa = PBXGroup;
 			children = (
-				9A25128E1C8A82FF00A65867 /* DKTextField */,
-				9A25128F1C8A82FF00A65867 /* DKTextField.xcodeproj */,
-				9A2512921C8A82FF00A65867 /* DKTextFieldTests */,
-				9A2512931C8A82FF00A65867 /* intro1.gif */,
-				9A2512941C8A82FF00A65867 /* README.md */,
-				9A6E43201C8A75BD0031DDAD /* LearnDKTextField */,
-				9A6E433A1C8A75BD0031DDAD /* LearnDKTextFieldTests */,
-				9A6E43451C8A75BD0031DDAD /* LearnDKTextFieldUITests */,
-				9A6E431F1C8A75BD0031DDAD /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		9A6E431F1C8A75BD0031DDAD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9A6E431E1C8A75BD0031DDAD /* LearnDKTextField.app */,
-				9A6E43371C8A75BD0031DDAD /* LearnDKTextFieldTests.xctest */,
-				9A6E43421C8A75BD0031DDAD /* LearnDKTextFieldUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9A6E43201C8A75BD0031DDAD /* LearnDKTextField */ = {
-			isa = PBXGroup;
-			children = (
-				9A6E43241C8A75BD0031DDAD /* AppDelegate.h */,
-				9A6E43251C8A75BD0031DDAD /* AppDelegate.m */,
-				9A6E43271C8A75BD0031DDAD /* ViewController.h */,
-				9A6E43281C8A75BD0031DDAD /* ViewController.m */,
-				9A6E432A1C8A75BD0031DDAD /* Main.storyboard */,
-				9A6E432D1C8A75BD0031DDAD /* Assets.xcassets */,
-				9A6E432F1C8A75BD0031DDAD /* LaunchScreen.storyboard */,
-				9A6E43321C8A75BD0031DDAD /* Info.plist */,
-				9A6E43211C8A75BD0031DDAD /* Supporting Files */,
+				9AC897131C8BF5E800C4E592 /* DKTextField.h */,
+				9AC897141C8BF5E800C4E592 /* DKTextField.m */,
+				9AC896E31C8BF5D300C4E592 /* AppDelegate.h */,
+				9AC896E41C8BF5D300C4E592 /* AppDelegate.m */,
+				9AC896E61C8BF5D300C4E592 /* ViewController.h */,
+				9AC896E71C8BF5D300C4E592 /* ViewController.m */,
+				9AC896E91C8BF5D300C4E592 /* Main.storyboard */,
+				9AC896EC1C8BF5D300C4E592 /* Assets.xcassets */,
+				9AC896EE1C8BF5D300C4E592 /* LaunchScreen.storyboard */,
+				9AC896F11C8BF5D300C4E592 /* Info.plist */,
+				9AC896E01C8BF5D300C4E592 /* Supporting Files */,
 			);
 			path = LearnDKTextField;
 			sourceTree = "<group>";
 		};
-		9A6E43211C8A75BD0031DDAD /* Supporting Files */ = {
+		9AC896E01C8BF5D300C4E592 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A6E43221C8A75BD0031DDAD /* main.m */,
+				9AC896E11C8BF5D300C4E592 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A6E433A1C8A75BD0031DDAD /* LearnDKTextFieldTests */ = {
+		9AC896F91C8BF5D300C4E592 /* LearnDKTextFieldTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A6E433B1C8A75BD0031DDAD /* LearnDKTextFieldTests.m */,
-				9A6E433D1C8A75BD0031DDAD /* Info.plist */,
+				9AC896FA1C8BF5D300C4E592 /* LearnDKTextFieldTests.m */,
+				9AC896FC1C8BF5D300C4E592 /* Info.plist */,
 			);
 			path = LearnDKTextFieldTests;
 			sourceTree = "<group>";
 		};
-		9A6E43451C8A75BD0031DDAD /* LearnDKTextFieldUITests */ = {
+		9AC897041C8BF5D300C4E592 /* LearnDKTextFieldUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9A6E43461C8A75BD0031DDAD /* LearnDKTextFieldUITests.m */,
-				9A6E43481C8A75BD0031DDAD /* Info.plist */,
+				9AC897051C8BF5D300C4E592 /* LearnDKTextFieldUITests.m */,
+				9AC897071C8BF5D300C4E592 /* Info.plist */,
 			);
 			path = LearnDKTextFieldUITests;
 			sourceTree = "<group>";
@@ -180,13 +148,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A6E431D1C8A75BD0031DDAD /* LearnDKTextField */ = {
+		9AC896DC1C8BF5D200C4E592 /* LearnDKTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6E434B1C8A75BD0031DDAD /* Build configuration list for PBXNativeTarget "LearnDKTextField" */;
+			buildConfigurationList = 9AC8970A1C8BF5D300C4E592 /* Build configuration list for PBXNativeTarget "LearnDKTextField" */;
 			buildPhases = (
-				9A6E431A1C8A75BD0031DDAD /* Sources */,
-				9A6E431B1C8A75BD0031DDAD /* Frameworks */,
-				9A6E431C1C8A75BD0031DDAD /* Resources */,
+				9AC896D91C8BF5D200C4E592 /* Sources */,
+				9AC896DA1C8BF5D200C4E592 /* Frameworks */,
+				9AC896DB1C8BF5D200C4E592 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -194,68 +162,68 @@
 			);
 			name = LearnDKTextField;
 			productName = LearnDKTextField;
-			productReference = 9A6E431E1C8A75BD0031DDAD /* LearnDKTextField.app */;
+			productReference = 9AC896DD1C8BF5D300C4E592 /* LearnDKTextField.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A6E43361C8A75BD0031DDAD /* LearnDKTextFieldTests */ = {
+		9AC896F51C8BF5D300C4E592 /* LearnDKTextFieldTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6E434E1C8A75BD0031DDAD /* Build configuration list for PBXNativeTarget "LearnDKTextFieldTests" */;
+			buildConfigurationList = 9AC8970D1C8BF5D300C4E592 /* Build configuration list for PBXNativeTarget "LearnDKTextFieldTests" */;
 			buildPhases = (
-				9A6E43331C8A75BD0031DDAD /* Sources */,
-				9A6E43341C8A75BD0031DDAD /* Frameworks */,
-				9A6E43351C8A75BD0031DDAD /* Resources */,
+				9AC896F21C8BF5D300C4E592 /* Sources */,
+				9AC896F31C8BF5D300C4E592 /* Frameworks */,
+				9AC896F41C8BF5D300C4E592 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A6E43391C8A75BD0031DDAD /* PBXTargetDependency */,
+				9AC896F81C8BF5D300C4E592 /* PBXTargetDependency */,
 			);
 			name = LearnDKTextFieldTests;
 			productName = LearnDKTextFieldTests;
-			productReference = 9A6E43371C8A75BD0031DDAD /* LearnDKTextFieldTests.xctest */;
+			productReference = 9AC896F61C8BF5D300C4E592 /* LearnDKTextFieldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A6E43411C8A75BD0031DDAD /* LearnDKTextFieldUITests */ = {
+		9AC897001C8BF5D300C4E592 /* LearnDKTextFieldUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6E43511C8A75BD0031DDAD /* Build configuration list for PBXNativeTarget "LearnDKTextFieldUITests" */;
+			buildConfigurationList = 9AC897101C8BF5D300C4E592 /* Build configuration list for PBXNativeTarget "LearnDKTextFieldUITests" */;
 			buildPhases = (
-				9A6E433E1C8A75BD0031DDAD /* Sources */,
-				9A6E433F1C8A75BD0031DDAD /* Frameworks */,
-				9A6E43401C8A75BD0031DDAD /* Resources */,
+				9AC896FD1C8BF5D300C4E592 /* Sources */,
+				9AC896FE1C8BF5D300C4E592 /* Frameworks */,
+				9AC896FF1C8BF5D300C4E592 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A6E43441C8A75BD0031DDAD /* PBXTargetDependency */,
+				9AC897031C8BF5D300C4E592 /* PBXTargetDependency */,
 			);
 			name = LearnDKTextFieldUITests;
 			productName = LearnDKTextFieldUITests;
-			productReference = 9A6E43421C8A75BD0031DDAD /* LearnDKTextFieldUITests.xctest */;
+			productReference = 9AC897011C8BF5D300C4E592 /* LearnDKTextFieldUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A6E43161C8A75BD0031DDAD /* Project object */ = {
+		9AC896D51C8BF5D200C4E592 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = YaoxinZhuo;
 				TargetAttributes = {
-					9A6E431D1C8A75BD0031DDAD = {
+					9AC896DC1C8BF5D200C4E592 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
-					9A6E43361C8A75BD0031DDAD = {
+					9AC896F51C8BF5D300C4E592 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 9A6E431D1C8A75BD0031DDAD;
+						TestTargetID = 9AC896DC1C8BF5D200C4E592;
 					};
-					9A6E43411C8A75BD0031DDAD = {
+					9AC897001C8BF5D300C4E592 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 9A6E431D1C8A75BD0031DDAD;
+						TestTargetID = 9AC896DC1C8BF5D200C4E592;
 					};
 				};
 			};
-			buildConfigurationList = 9A6E43191C8A75BD0031DDAD /* Build configuration list for PBXProject "LearnDKTextField" */;
+			buildConfigurationList = 9AC896D81C8BF5D200C4E592 /* Build configuration list for PBXProject "LearnDKTextField" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -263,63 +231,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 9A6E43151C8A75BD0031DDAD;
-			productRefGroup = 9A6E431F1C8A75BD0031DDAD /* Products */;
+			mainGroup = 9AC896D41C8BF5D200C4E592;
+			productRefGroup = 9AC896DE1C8BF5D300C4E592 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9A2512901C8A82FF00A65867 /* Products */;
-					ProjectRef = 9A25128F1C8A82FF00A65867 /* DKTextField.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				9A6E431D1C8A75BD0031DDAD /* LearnDKTextField */,
-				9A6E43361C8A75BD0031DDAD /* LearnDKTextFieldTests */,
-				9A6E43411C8A75BD0031DDAD /* LearnDKTextFieldUITests */,
+				9AC896DC1C8BF5D200C4E592 /* LearnDKTextField */,
+				9AC896F51C8BF5D300C4E592 /* LearnDKTextFieldTests */,
+				9AC897001C8BF5D300C4E592 /* LearnDKTextFieldUITests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		9A25129C1C8A82FF00A65867 /* DKTextField.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = DKTextField.app;
-			remoteRef = 9A25129B1C8A82FF00A65867 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		9A25129E1C8A82FF00A65867 /* DKTextFieldTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = DKTextFieldTests.xctest;
-			remoteRef = 9A25129D1C8A82FF00A65867 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		9A6E431C1C8A75BD0031DDAD /* Resources */ = {
+		9AC896DB1C8BF5D200C4E592 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6E43311C8A75BD0031DDAD /* LaunchScreen.storyboard in Resources */,
-				9A2512971C8A82FF00A65867 /* intro1.gif in Resources */,
-				9A6E432E1C8A75BD0031DDAD /* Assets.xcassets in Resources */,
-				9A6E432C1C8A75BD0031DDAD /* Main.storyboard in Resources */,
-				9A2512961C8A82FF00A65867 /* DKTextFieldTests in Resources */,
-				9A2512951C8A82FF00A65867 /* DKTextField in Resources */,
+				9AC896F01C8BF5D300C4E592 /* LaunchScreen.storyboard in Resources */,
+				9AC896ED1C8BF5D300C4E592 /* Assets.xcassets in Resources */,
+				9AC896EB1C8BF5D300C4E592 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6E43351C8A75BD0031DDAD /* Resources */ = {
+		9AC896F41C8BF5D300C4E592 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6E43401C8A75BD0031DDAD /* Resources */ = {
+		9AC896FF1C8BF5D300C4E592 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,61 +271,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A6E431A1C8A75BD0031DDAD /* Sources */ = {
+		9AC896D91C8BF5D200C4E592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6E43291C8A75BD0031DDAD /* ViewController.m in Sources */,
-				9A6E43261C8A75BD0031DDAD /* AppDelegate.m in Sources */,
-				9A2512981C8A82FF00A65867 /* README.md in Sources */,
-				9A6E43231C8A75BD0031DDAD /* main.m in Sources */,
+				9AC897151C8BF5E800C4E592 /* DKTextField.m in Sources */,
+				9AC896E81C8BF5D300C4E592 /* ViewController.m in Sources */,
+				9AC896E51C8BF5D300C4E592 /* AppDelegate.m in Sources */,
+				9AC896E21C8BF5D300C4E592 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6E43331C8A75BD0031DDAD /* Sources */ = {
+		9AC896F21C8BF5D300C4E592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6E433C1C8A75BD0031DDAD /* LearnDKTextFieldTests.m in Sources */,
+				9AC896FB1C8BF5D300C4E592 /* LearnDKTextFieldTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6E433E1C8A75BD0031DDAD /* Sources */ = {
+		9AC896FD1C8BF5D300C4E592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6E43471C8A75BD0031DDAD /* LearnDKTextFieldUITests.m in Sources */,
+				9AC897061C8BF5D300C4E592 /* LearnDKTextFieldUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A6E43391C8A75BD0031DDAD /* PBXTargetDependency */ = {
+		9AC896F81C8BF5D300C4E592 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A6E431D1C8A75BD0031DDAD /* LearnDKTextField */;
-			targetProxy = 9A6E43381C8A75BD0031DDAD /* PBXContainerItemProxy */;
+			target = 9AC896DC1C8BF5D200C4E592 /* LearnDKTextField */;
+			targetProxy = 9AC896F71C8BF5D300C4E592 /* PBXContainerItemProxy */;
 		};
-		9A6E43441C8A75BD0031DDAD /* PBXTargetDependency */ = {
+		9AC897031C8BF5D300C4E592 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A6E431D1C8A75BD0031DDAD /* LearnDKTextField */;
-			targetProxy = 9A6E43431C8A75BD0031DDAD /* PBXContainerItemProxy */;
+			target = 9AC896DC1C8BF5D200C4E592 /* LearnDKTextField */;
+			targetProxy = 9AC897021C8BF5D300C4E592 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A6E432A1C8A75BD0031DDAD /* Main.storyboard */ = {
+		9AC896E91C8BF5D300C4E592 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A6E432B1C8A75BD0031DDAD /* Base */,
+				9AC896EA1C8BF5D300C4E592 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9A6E432F1C8A75BD0031DDAD /* LaunchScreen.storyboard */ = {
+		9AC896EE1C8BF5D300C4E592 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A6E43301C8A75BD0031DDAD /* Base */,
+				9AC896EF1C8BF5D300C4E592 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -391,10 +333,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9A6E43491C8A75BD0031DDAD /* Debug */ = {
+		9AC897081C8BF5D300C4E592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -434,10 +376,10 @@
 			};
 			name = Debug;
 		};
-		9A6E434A1C8A75BD0031DDAD /* Release */ = {
+		9AC897091C8BF5D300C4E592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -471,12 +413,10 @@
 			};
 			name = Release;
 		};
-		9A6E434C1C8A75BD0031DDAD /* Debug */ = {
+		9AC8970B1C8BF5D300C4E592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
 				INFOPLIST_FILE = LearnDKTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YaoxinZhuo.LearnDKTextField;
@@ -484,12 +424,10 @@
 			};
 			name = Debug;
 		};
-		9A6E434D1C8A75BD0031DDAD /* Release */ = {
+		9AC8970C1C8BF5D300C4E592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
 				INFOPLIST_FILE = LearnDKTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YaoxinZhuo.LearnDKTextField;
@@ -497,7 +435,7 @@
 			};
 			name = Release;
 		};
-		9A6E434F1C8A75BD0031DDAD /* Debug */ = {
+		9AC8970E1C8BF5D300C4E592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		9A6E43501C8A75BD0031DDAD /* Release */ = {
+		9AC8970F1C8BF5D300C4E592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,7 +459,7 @@
 			};
 			name = Release;
 		};
-		9A6E43521C8A75BD0031DDAD /* Debug */ = {
+		9AC897111C8BF5D300C4E592 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = LearnDKTextFieldUITests/Info.plist;
@@ -533,7 +471,7 @@
 			};
 			name = Debug;
 		};
-		9A6E43531C8A75BD0031DDAD /* Release */ = {
+		9AC897121C8BF5D300C4E592 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = LearnDKTextFieldUITests/Info.plist;
@@ -548,43 +486,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A6E43191C8A75BD0031DDAD /* Build configuration list for PBXProject "LearnDKTextField" */ = {
+		9AC896D81C8BF5D200C4E592 /* Build configuration list for PBXProject "LearnDKTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6E43491C8A75BD0031DDAD /* Debug */,
-				9A6E434A1C8A75BD0031DDAD /* Release */,
+				9AC897081C8BF5D300C4E592 /* Debug */,
+				9AC897091C8BF5D300C4E592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6E434B1C8A75BD0031DDAD /* Build configuration list for PBXNativeTarget "LearnDKTextField" */ = {
+		9AC8970A1C8BF5D300C4E592 /* Build configuration list for PBXNativeTarget "LearnDKTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6E434C1C8A75BD0031DDAD /* Debug */,
-				9A6E434D1C8A75BD0031DDAD /* Release */,
+				9AC8970B1C8BF5D300C4E592 /* Debug */,
+				9AC8970C1C8BF5D300C4E592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		9A6E434E1C8A75BD0031DDAD /* Build configuration list for PBXNativeTarget "LearnDKTextFieldTests" */ = {
+		9AC8970D1C8BF5D300C4E592 /* Build configuration list for PBXNativeTarget "LearnDKTextFieldTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6E434F1C8A75BD0031DDAD /* Debug */,
-				9A6E43501C8A75BD0031DDAD /* Release */,
+				9AC8970E1C8BF5D300C4E592 /* Debug */,
+				9AC8970F1C8BF5D300C4E592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		9A6E43511C8A75BD0031DDAD /* Build configuration list for PBXNativeTarget "LearnDKTextFieldUITests" */ = {
+		9AC897101C8BF5D300C4E592 /* Build configuration list for PBXNativeTarget "LearnDKTextFieldUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6E43521C8A75BD0031DDAD /* Debug */,
-				9A6E43531C8A75BD0031DDAD /* Release */,
+				9AC897111C8BF5D300C4E592 /* Debug */,
+				9AC897121C8BF5D300C4E592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9A6E43161C8A75BD0031DDAD /* Project object */;
+	rootObject = 9AC896D51C8BF5D200C4E592 /* Project object */;
 }

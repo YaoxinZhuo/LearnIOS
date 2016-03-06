@@ -2,14 +2,14 @@
 //  ViewController.m
 //  LearnDKTextField
 //
-//  Created by YaoxinZhuo on 3/5/16.
+//  Created by YaoxinZhuo on 3/6/16.
 //  Copyright © 2016 YaoxinZhuo. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "DKTextField.h"
 @interface ViewController ()
-@property (nonatomic,weak) IBOutlet DKTextField *textField;
+@property (strong, nonatomic) IBOutlet UITextField *output;
 
 @end
 
@@ -25,7 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)sender:(id)sender {
-    self.textField.secureTextEntry = sende ;
+- (IBAction)switchChanged:(UISwitch *)sender {
+    self.output.secureTextEntry = sender.on;
 }
 @end
