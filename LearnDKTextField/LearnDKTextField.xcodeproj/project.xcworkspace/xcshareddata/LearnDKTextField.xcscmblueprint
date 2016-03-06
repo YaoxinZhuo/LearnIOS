@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "72B984098E51F846759FA2B332ADD4A840483FD5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "861A2DDAFAD06CED5338C232B3F41AA5C35685BB" : 0,
+    "72B984098E51F846759FA2B332ADD4A840483FD5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E3050910-9308-4C1D-AC90-13A9767E8BAE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "861A2DDAFAD06CED5338C232B3F41AA5C35685BB" : "LearniOS\/LearnDKTextField\/DKTextField\/",
+    "72B984098E51F846759FA2B332ADD4A840483FD5" : "LearniOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LearnDKTextField",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LearnDKTextField\/LearnDKTextField.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YaoxinZhuo\/LearniOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72B984098E51F846759FA2B332ADD4A840483FD5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhangao0086\/DKTextField.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "861A2DDAFAD06CED5338C232B3F41AA5C35685BB"
+    }
+  ]
+}
