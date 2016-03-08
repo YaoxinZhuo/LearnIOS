@@ -22,7 +22,7 @@
 }
 - (void) print
 {
-    NSLog(@"%i/%i",numerator,denominator);
+    printf("%i/%i\n",numerator,denominator);
 }
 - (void) setNumerator:(int)n
 {
@@ -32,7 +32,14 @@
 {
     denominator = d;
 }
-
+- (int) numerator
+{
+    return numerator;
+}
+- (int) denominator;
+{
+    return denominator;
+}
 @end
 
 
@@ -47,6 +54,10 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"The fraction of myfraction is:");
         [myfraction print];
+        
+        NSLog(@"The fraction of myfraction is %i/%i",myfraction.numerator,myfraction.denominator);
+        
+        
         
     }
     return 0;
