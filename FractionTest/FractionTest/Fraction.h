@@ -1,0 +1,19 @@
+//
+//  Fraction.h
+//  FractionTest
+//
+//  Created by YaoxinZhuo on 3/8/16.
+//  Copyright © 2016 YaoxinZhuo. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Fraction : NSObject
+-(void) print;
+-(void) setNumerator:(int) n;
+-(void) setDenominator:(int) n;
+-(int) numerator;
+-(int) denominator;
+-(double) convertToNum;
+
+@end

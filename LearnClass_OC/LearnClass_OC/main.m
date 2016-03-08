@@ -74,6 +74,11 @@ int main(int argc, const char * argv[]) {
         [smallcal multiply:3];
         [smallcal divide: 2];
         NSLog(@"%g\n",smallcal.accumulator);
+        
+        char c,d;
+        c='d';
+        d=c;
+        NSLog(@"d=%c\n",d);
     }
     return 0;
 }
