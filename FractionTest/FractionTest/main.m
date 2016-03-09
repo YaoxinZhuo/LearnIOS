@@ -22,10 +22,11 @@ int main(int argc, const char * argv[]) {
         [myfraction2 print];
         NSLog(@"=");
         
-        [myfraction1 add:myfraction2];
+        Fraction *tempfraction = [[Fraction alloc] init];
+        tempfraction = [myfraction1 add:myfraction2];
         
-        [myfraction1 reduce];
-        [myfraction1 print];
+        //[myfraction1 reduce];
+        [tempfraction print];
     }
     return 0;
 }

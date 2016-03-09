@@ -57,10 +57,15 @@
     denominator = d;
 }
 
--(void) add:(Fraction *)f
+-(Fraction *) add:(Fraction *)f
 {
-    numerator = numerator * f.denominator + denominator * f.numerator;
-    denominator = denominator * f.denominator;
+    
+    Fraction * tempfraction = [[Fraction alloc] init];
+        
+    tempfraction.numerator = numerator * f.denominator + denominator * f.numerator;
+    tempfraction.denominator = denominator * f.denominator;
+    [tempfraction reduce];
+    return tempfraction;
 }
 
 -(void)reduce
