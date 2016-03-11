@@ -21,3 +21,16 @@
 -(void) reduce;
 -(Fraction *) add:(Fraction *)f;
 @end
+
+@interface ClassA : NSObject
+{
+    int x;
+}
+- (void) initVar;
+@end
+
+@interface ClassB : ClassA
+
+-(void) printVar;
+
+@end

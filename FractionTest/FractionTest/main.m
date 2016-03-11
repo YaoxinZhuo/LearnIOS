@@ -27,6 +27,11 @@ int main(int argc, const char * argv[]) {
         
         //[myfraction1 reduce];
         [tempfraction print];
+        
+        ClassB *tB = [[ClassB alloc] init];
+        
+        [tB initVar];
+        [tB printVar];
     }
     return 0;
 }

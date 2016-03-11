@@ -89,3 +89,19 @@
 }
 
 @end
+
+@implementation ClassA
+-(void) initVar
+{
+    x = 100;
+}
+
+@end
+
+@implementation ClassB
+-(void) printVar
+{
+    NSLog(@"x=%i",x);
+}
+
+@end
