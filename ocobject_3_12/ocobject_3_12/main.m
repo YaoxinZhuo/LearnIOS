@@ -26,15 +26,17 @@ int main(int argc, const char * argv[]) {
         [result print];
         NSLog(@"\n");
         
-        Fraction *f1 = [[Fraction alloc] init];
+        Fraction *f = [[Fraction alloc] init];
+        @try {
+            [f noSuchMethod];
+        }
+        @catch (NSException *exception) {
+            NSLog(@"Caught %@%@",[exception name],[exception reason]);
+        }
+        @finally { 
+            NSLog(@"Execution continues!");
+        }
         
-        [f1 setTo:1 over:2];
-        
-        datavalue = f1;
-        [datavalue print];
-        
-        datavalue = c2;
-        [datavalue print];
     }
     return 0;
 }

@@ -17,6 +17,7 @@
 -(int) denominator;
 -(double) convertToNum;
 -(void) setTo:(int)n over:(int) d;
+-(void) noSuchMethod;
 //-(void) add: (Fraction *)f;
 -(void) reduce;
 -(Fraction *) add:(Fraction *)f;
