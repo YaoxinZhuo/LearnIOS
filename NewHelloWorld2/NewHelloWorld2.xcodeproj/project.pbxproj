@@ -14,6 +14,12 @@
 		9A22BE521CA38FB2002EA024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A22BE501CA38FB2002EA024 /* Main.storyboard */; };
 		9A22BE541CA38FB2002EA024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A22BE531CA38FB2002EA024 /* Assets.xcassets */; };
 		9A22BE571CA38FB2002EA024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A22BE551CA38FB2002EA024 /* LaunchScreen.storyboard */; };
+		9A22BE661CA39709002EA024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22BE651CA39709002EA024 /* main.m */; };
+		9A22BE691CA39709002EA024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22BE681CA39709002EA024 /* AppDelegate.m */; };
+		9A22BE6C1CA39709002EA024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A22BE6B1CA39709002EA024 /* ViewController.m */; };
+		9A22BE6F1CA39709002EA024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A22BE6D1CA39709002EA024 /* Main.storyboard */; };
+		9A22BE711CA39709002EA024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A22BE701CA39709002EA024 /* Assets.xcassets */; };
+		9A22BE741CA39709002EA024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A22BE721CA39709002EA024 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +35,27 @@
 		9A22BE531CA38FB2002EA024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A22BE561CA38FB2002EA024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A22BE581CA38FB2002EA024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A22BE621CA39709002EA024 /* NewProduct2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProduct2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A22BE651CA39709002EA024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A22BE671CA39709002EA024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A22BE681CA39709002EA024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A22BE6A1CA39709002EA024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A22BE6B1CA39709002EA024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A22BE6E1CA39709002EA024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A22BE701CA39709002EA024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A22BE731CA39709002EA024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A22BE751CA39709002EA024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9A22BE3E1CA38FB2002EA024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A22BE5F1CA39709002EA024 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				9A22BE431CA38FB2002EA024 /* NewHelloWorld2 */,
+				9A22BE631CA39709002EA024 /* NewProduct2 */,
 				9A22BE421CA38FB2002EA024 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				9A22BE411CA38FB2002EA024 /* NewHelloWorld2.app */,
+				9A22BE621CA39709002EA024 /* NewProduct2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +109,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A22BE631CA39709002EA024 /* NewProduct2 */ = {
+			isa = PBXGroup;
+			children = (
+				9A22BE671CA39709002EA024 /* AppDelegate.h */,
+				9A22BE681CA39709002EA024 /* AppDelegate.m */,
+				9A22BE6A1CA39709002EA024 /* ViewController.h */,
+				9A22BE6B1CA39709002EA024 /* ViewController.m */,
+				9A22BE6D1CA39709002EA024 /* Main.storyboard */,
+				9A22BE701CA39709002EA024 /* Assets.xcassets */,
+				9A22BE721CA39709002EA024 /* LaunchScreen.storyboard */,
+				9A22BE751CA39709002EA024 /* Info.plist */,
+				9A22BE641CA39709002EA024 /* Supporting Files */,
+			);
+			path = NewProduct2;
+			sourceTree = "<group>";
+		};
+		9A22BE641CA39709002EA024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A22BE651CA39709002EA024 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +153,23 @@
 			productReference = 9A22BE411CA38FB2002EA024 /* NewHelloWorld2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9A22BE611CA39709002EA024 /* NewProduct2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A22BE761CA39709002EA024 /* Build configuration list for PBXNativeTarget "NewProduct2" */;
+			buildPhases = (
+				9A22BE5E1CA39709002EA024 /* Sources */,
+				9A22BE5F1CA39709002EA024 /* Frameworks */,
+				9A22BE601CA39709002EA024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewProduct2;
+			productName = NewProduct2;
+			productReference = 9A22BE621CA39709002EA024 /* NewProduct2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -114,6 +180,9 @@
 				ORGANIZATIONNAME = YaoxinZhuo;
 				TargetAttributes = {
 					9A22BE401CA38FB2002EA024 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9A22BE611CA39709002EA024 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -132,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				9A22BE401CA38FB2002EA024 /* NewHelloWorld2 */,
+				9A22BE611CA39709002EA024 /* NewProduct2 */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +217,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A22BE601CA39709002EA024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A22BE741CA39709002EA024 /* LaunchScreen.storyboard in Resources */,
+				9A22BE711CA39709002EA024 /* Assets.xcassets in Resources */,
+				9A22BE6F1CA39709002EA024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -158,6 +238,16 @@
 				9A22BE491CA38FB2002EA024 /* AppDelegate.m in Sources */,
 				9A22BE4C1CA38FB2002EA024 /* FirstViewController.m in Sources */,
 				9A22BE461CA38FB2002EA024 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A22BE5E1CA39709002EA024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A22BE6C1CA39709002EA024 /* ViewController.m in Sources */,
+				9A22BE691CA39709002EA024 /* AppDelegate.m in Sources */,
+				9A22BE661CA39709002EA024 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +266,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				9A22BE561CA38FB2002EA024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A22BE6D1CA39709002EA024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A22BE6E1CA39709002EA024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A22BE721CA39709002EA024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A22BE731CA39709002EA024 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -285,6 +391,28 @@
 			};
 			name = Release;
 		};
+		9A22BE771CA39709002EA024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewProduct2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YaoxinZhuo.NewProduct2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A22BE781CA39709002EA024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewProduct2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YaoxinZhuo.NewProduct2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -302,6 +430,14 @@
 			buildConfigurations = (
 				9A22BE5C1CA38FB2002EA024 /* Debug */,
 				9A22BE5D1CA38FB2002EA024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A22BE761CA39709002EA024 /* Build configuration list for PBXNativeTarget "NewProduct2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A22BE771CA39709002EA024 /* Debug */,
+				9A22BE781CA39709002EA024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

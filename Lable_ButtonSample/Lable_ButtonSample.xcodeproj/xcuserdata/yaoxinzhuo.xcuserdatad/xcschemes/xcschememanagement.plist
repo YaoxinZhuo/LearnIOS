@@ -4,25 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NewHelloWorld2.xcscheme</key>
+		<key>Lable_ButtonSample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>NewProduct2.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9A22BE401CA38FB2002EA024</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9A22BE611CA39709002EA024</key>
+		<key>9A22BE811CA39F86002EA024</key>
 		<dict>
 			<key>primary</key>
 			<true/>
