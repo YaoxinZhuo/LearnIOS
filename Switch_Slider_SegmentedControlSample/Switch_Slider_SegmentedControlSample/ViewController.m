@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UISwitch *LeftSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *RightSwitch;
+@property (weak, nonatomic) IBOutlet UILabel *SliderValue;
 
 @end
 
@@ -25,8 +28,8 @@
 -(IBAction)sliderValueChanged:(id)sender
 {
     UISlider *slider = (UISlider *)sender;
-    int progressAsInt = (int)(slider.value);
-    NSString *newText = [[NSString alloc]initWithFormat:@"%d",progressAsInt];
+    double progressAsInt = (double)(slider.value);
+    NSString *newText = [[NSString alloc]initWithFormat:@"%f",progressAsInt];
     self.SliderValue.text = newText;
 }
 

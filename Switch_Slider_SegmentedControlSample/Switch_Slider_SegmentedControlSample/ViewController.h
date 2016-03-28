@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UISwitch *LeftSwitch;
-@property (weak, nonatomic) IBOutlet UISwitch *RightSwitch;
+//@property (strong, nonatomic) IBOutlet UISwitch *LeftSwitch;
+//@property (strong, nonatomic) IBOutlet UISwitch *RightSwitch;
 
-@property (weak, nonatomic) IBOutlet UILabel *SliderValue;
+
+//@property (strong, nonatomic) IBOutlet UILabel *SliderValue;
 
 @end
 
