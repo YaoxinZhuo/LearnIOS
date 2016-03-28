@@ -8,11 +8,28 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextFieldDelegate,UITextViewDelegate>
 
 @end
 
 @implementation ViewController
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
+#pragma mark - UITextView Delegate Method
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(nonnull NSString *)text
+{
+    if([text isEqualToString:@"\n"])
+    {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    return YES;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
