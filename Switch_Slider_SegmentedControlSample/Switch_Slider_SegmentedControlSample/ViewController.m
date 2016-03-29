@@ -25,6 +25,20 @@
     [self.RightSwitch setOn:setting animated:YES];
 }
 
+-(IBAction)touchDown:(id)sender
+{
+    if(self.LeftSwitch.hidden == YES)
+    {
+        self.RightSwitch.hidden = NO;
+        self.LeftSwitch.hidden = NO;
+    }
+    else
+    {
+        self.RightSwitch.hidden = YES;
+        self.LeftSwitch.hidden = YES;
+    }
+}
+
 -(IBAction)sliderValueChanged:(id)sender
 {
     UISlider *slider = (UISlider *)sender;
