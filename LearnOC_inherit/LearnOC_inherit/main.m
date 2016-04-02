@@ -26,6 +26,18 @@ int main(int argc, const char * argv[])
         NSLog(@"Rectangle width is %d, height is %d",myRect.width,myRect.height);
         NSLog(@"Origin at (%i,%i)",myRect.origin.x,[myRect.origin y]);
         NSLog(@"Area = %i,Perimeter = %i",[myRect area],[myRect perimeter]);
+        
+        [myRect translate:myPoint];
+        NSLog(@"Now Origin at(%i,%i)",myRect.origin.x,myRect.origin.y);
+        BOOL f = [myRect containsPoints:myPoint];
+        if(f)
+        {
+            NSLog(@"1");
+        }
+        else
+        {
+            NSLog(@"0");
+        }
     }
     return 0;
 }

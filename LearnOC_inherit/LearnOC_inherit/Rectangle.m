@@ -41,4 +41,23 @@
     return origin;
 }
 
+-(void) translate:(XYPoint *)pt
+{
+    origin.x += pt.x;
+    origin.y += pt.y;
+}
+
+-(BOOL) containsPoints:(XYPoint *)aPoint
+{
+        int xs = aPoint.x-origin.x;
+        int ys = aPoint.y-origin.y;
+        if(xs >= 0 && ys >= 0 && xs<width && ys <=height )
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+}
+
 @end
