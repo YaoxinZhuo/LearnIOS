@@ -7,7 +7,7 @@
 //
 
 #import "Fraction.h"
-
+static int gCounter;
 @implementation Fraction
 
 @synthesize numerator,denominator;
@@ -44,6 +44,19 @@
         [self  setTo:n over:d];
     }
     return self;
+}
+
++(Fraction *) allocF
+{
+    extern int gCounter;
+    ++ gCounter;
+    return [Fraction alloc];
+}
+
++(int) count
+{
+    extern int gCounter;
+    return gCounter;
 }
 
 @end

@@ -16,5 +16,7 @@
 -(double) converttoNum;
 -(void) setTo:(int) n over:(int) d;
 -(Fraction *)initWith:(int) n over:(int) d;
++(Fraction *) allocF;
++(int) count;
 
 @end
