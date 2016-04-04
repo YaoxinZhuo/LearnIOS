@@ -16,6 +16,8 @@ int main(int argc, const char * argv[])
     {
         Rectangle *myRect = [[Rectangle alloc] init];
         XYPoint *myPoint = [[XYPoint alloc] init];
+        id number = [[NSObject alloc] init];
+    
         
         [myPoint setX:100 andY:200];
         [myRect setWidth:5 andHeight:20];

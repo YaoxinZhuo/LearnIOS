@@ -29,4 +29,21 @@
     }
 }
 
+-(void) setTo:(int)n over:(int)d
+{
+    numerator = n;
+    denominator = d;
+}
+
+-(Fraction *)initWith:(int)n over:(int)d
+{
+    self = [super init];
+    
+    if(self)
+    {
+        [self  setTo:n over:d];
+    }
+    return self;
+}
+
 @end
