@@ -245,6 +245,7 @@
 				9A17E55B1CACCEF30017D251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

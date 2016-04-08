@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					9A59ED3E1C89044C00E5C8B1 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P924K6R9PP;
 					};
 					9A59ED571C89044C00E5C8B1 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -413,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 465647708@qq.com (7BJ7C3E93T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrySimpleApplication_oc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YaoxinZhuo.TrySimpleApplication-oc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -425,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 465647708@qq.com (7BJ7C3E93T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrySimpleApplication_oc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YaoxinZhuo.TrySimpleApplication-oc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -500,6 +507,7 @@
 				9A59ED6E1C89044C00E5C8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A59ED6F1C89044C00E5C8B1 /* Build configuration list for PBXNativeTarget "TrySimpleApplication_ocTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +516,7 @@
 				9A59ED711C89044C00E5C8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A59ED721C89044C00E5C8B1 /* Build configuration list for PBXNativeTarget "TrySimpleApplication_ocUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +525,7 @@
 				9A59ED741C89044C00E5C8B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
