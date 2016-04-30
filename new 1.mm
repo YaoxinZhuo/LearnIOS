@@ -40,6 +40,10 @@
 @implementation Deck
 -(NSMutableArrsy *)Card
 {
+	if(!_cards)
+	{
+		_cards = [[NSMutableArrsy alloc] init];
+	}
 	return _cards;
 }
 - (void)addCard:(Card *)card atTop"(BOOL)atTop
@@ -57,5 +61,15 @@
 {
 	[self addCard:card atTop:NO];
 }
-- (Card *)drawRandomCard;
+- (Card *)drawRandomCard
+{
+    Card *drawRandomCard = nil;
+    if([self.cards count])
+    {
+        unsigned index = arc4random() % [self.cards count];
+        drawRandomCard = self.cards[index];
+        [self.cards removeObjectiveAtIndex:index];
+    }
+    return drawRandomCard;
+}
 @end
