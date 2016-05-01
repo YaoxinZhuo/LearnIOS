@@ -1,4 +1,4 @@
-//Card.h
+/ //Card.h
 #import<Foundation/Foundation.h>
 @interface Card:NSObject
 @property (nonatomic,strong) NSString *contents;
@@ -73,3 +73,117 @@
     return drawRandomCard;
 }
 @end
+//PlayingCard.h
+#import "Card.h"
+@interface PlayingCard:Card
+@property (nonatomic,strong) NSString *suit;
+@property (strong) NSUInteger rank;
++(NSArray *)validsuits;
++(NSUInteger)maxRank;
+@end
+
+//PlayingCard.m
+#import "PlayingCard.h"
+
+@implementation PlayingCard
+
+-(NSString *)contents
+{
+    NSArray *rankStrings = [PlayingCard rankStrings];
+    return [rankStrings[self.rank] stringByAppendingString:self.suit];
+}
+@synthesize suit = _suit;
++(NSArray *)validsuits
+{
+    return @[@"♠︎",@"♦︎",@"♥︎",@"♣︎"];
+}
++(NSArray *)rankStrings
+{
+    return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",
+             @"8",@"9",@"10",@"J",@"Q",@"K"];
+}
++(NSUInteger)maxRank
+{
+    return [[self rankStrings] count] -1;
+}
+-(void) setSuit:(NSString *)suit
+{
+    if([[PlayingCard validsuits] containsObject:suit])
+    {
+        _suit = suit;
+    }
+}
+-(NSString *)suit
+{
+    return _suit ? _suit:@"?";
+}
+-(void) setRank:(NSUInteger)rank
+{
+    if(rank <= [PlayingCard maxRank])
+    {
+        _rank = rank;
+    }
+}
+@end
+//PlayingCardDeck.h
+@interface PlayingCardDeck : Deck
+
+@end
+
+//PlayingCardDeck.m
+#import "PlayingCardDeck.h"
+#import "PlayingCard.h"
+@implementation PlayingCardDeck
+
+-(instancetype) init
+{
+    self = [super init];
+    
+    if(self)
+    {
+        for(NSString *suit in [PlayingCard validsuits])
+        {
+            for(NSUInteger rank = 1; rank <= [PlayingCard maxRank]; rank++)
+            {
+                PlayingCard *card = [[PlayingCard alloc] init];
+                card.rank = rank;
+                card.suit = suit;
+                [self addCard:card];
+            }
+        }
+    }
+    
+    return self;
+}
+
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
