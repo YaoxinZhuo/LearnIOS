@@ -17,6 +17,8 @@
 - (IBAction)leftClick:(id)sender;
 - (IBAction)rightClick:(id)sender;
 @property int index;
+@property (nonatomic,strong) NSString *plistPath;
+@property (nonatomic,strong) NSMutableArray *plist;
 @end
 
 @implementation ViewController
@@ -26,7 +28,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     [[self medium]setImage:[UIImage imageNamed:@"111111"]];
     _index = 1;
-    
+    [_up setText:[NSString stringWithFormat:@"%d/5",_index]];
+    _plistPath = [[NSBundle mainBundle] pathForResource:@"imageData" ofType:@"plist"];
+    _plist = [[NSMutableArray alloc] initWithContentsOfFile:_plistPath];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,34 +38,41 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)checkButtonColorAndAll
+{
+    NSDictionary *dict = [_plist objectAtIndex:_index-1];
+    [_down setText:[dict objectForKey:@"desc"]];
+    [_medium setImage:[UIImage imageNamed:[dict objectForKey:@"icon"]]];
+    [_up setText:[NSString stringWithFormat:@"%d/5",_index]];
+    if(_index == 1)
+    {
+        [self.leftButton setImage:[UIImage imageNamed:@"left_normal"] forState:UIControlStateNormal];
+    }
+    else
+    {
+        [self.leftButton setImage:[UIImage imageNamed:@"left_highlighted"]forState:UIControlStateNormal];
+    }
+    if(_index == 5)
+    {
+        [self.rightButton setImage:[UIImage imageNamed:@"right_normal"] forState:UIControlStateNormal];
+    }
+    else
+    {
+        [self.rightButton setImage:[UIImage imageNamed:@"right_highlighted"]forState:UIControlStateNormal];
+    }
+}
+
 - (IBAction)leftClick:(id)sender {
+ 
     if(_index == 1)
     {
         ;
     }
     else
     {
-        switch (_index) {
-            case 2:
-                _index -= 1;
-                [_medium setImage:[UIImage imageNamed:@"111111"]];
-                break;
-            case 3:
-                _index -= 1;
-                [_medium setImage:[UIImage imageNamed:@"222222"]];
-                break;
-            case 4:
-                _index -= 1;
-                [_medium setImage:[UIImage imageNamed:@"333333"]];
-                break;
-            case 5:
-                _index -= 1;
-                [_medium setImage:[UIImage imageNamed:@"444444"]];
-                break;
-            default:
-                break;
-        }
+        _index -= 1;
     }
+    [self checkButtonColorAndAll];
 }
 
 - (IBAction)rightClick:(id)sender {
@@ -71,26 +82,8 @@
     }
     else
     {
-        switch (_index) {
-            case 1:
-                _index += 1;
-                [_medium setImage:[UIImage imageNamed:@"222222"]];
-                break;
-            case 2:
-                _index += 1;
-                [_medium setImage:[UIImage imageNamed:@"333333"]];
-                break;
-            case 3:
-                _index += 1;
-                [_medium setImage:[UIImage imageNamed:@"444444"]];
-                break;
-            case 4:
-                _index += 1;
-                [_medium setImage:[UIImage imageNamed:@"555555"]];
-                break;
-            default:
-                break;
-        }
+        _index += 1;
     }
+    [self checkButtonColorAndAll];
 }
 @end
