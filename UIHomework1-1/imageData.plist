@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>biaoqingdi</string>
+		<key>desc</key>
+		<string>在他面前，其他神马表情都弱爆了！</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>wangba</string>
+		<key>desc</key>
+		<string>哥们为什么选八号呢</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>bingli</string>
+		<key>desc</key>
+		<string>这也忒狠了</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>chiniupa</string>
+		<key>desc</key>
+		<string>这小姑娘吃个牛排比杀牛还费劲啊</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>danteng</string>
+		<key>desc</key>
+		<string>亲，你能改下你的网名么？哈哈</string>
+	</dict>
+</array>
+</plist>

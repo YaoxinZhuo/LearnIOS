@@ -8,6 +8,8 @@
 
 #include <iostream>
 #include <cmath>
+#include <string>
+using namespace std;
 
 int mymin(int a,int b)
 {
@@ -18,11 +20,11 @@ int mymin(int a,int b)
     return b;
 }
 
-int solve(char s1[],char s2[],int k)
+int solve(string s1,string s2,int k)
 {
     int dp[1000][1000];
-    int length1 = 3;
-    int length2 = 4;
+    int length1 =(int) s1.length();
+    int length2 =(int) s2.length();
     dp[0][0] = 0;
     for(int i = 0; i <= length1; i++)
     {
@@ -44,8 +46,8 @@ int solve(char s1[],char s2[],int k)
 
 int main(int argc, const char * argv[]) {
     int k;
-    char s1[50];
-    char s2[50];
+    string s1;
+    string s2;
     std::cin>>s1;
     std::cin>>s2;
     std::cin>>k;
