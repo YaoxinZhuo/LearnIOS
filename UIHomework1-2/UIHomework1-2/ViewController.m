@@ -71,7 +71,7 @@
         [_currentImages addObject:[UIImage imageNamed:[frontString stringByAppendingString:backString]]];
     }
     _MyImage.animationImages = _currentImages;
-    _MyImage.animationDuration = 2;
+    _MyImage.animationDuration = 3;
     _MyImage.animationRepeatCount = 1;
     [_MyImage startAnimating];
 }
