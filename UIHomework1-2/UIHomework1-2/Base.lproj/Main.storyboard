@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BA2-e4-RIJ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="20" width="400" height="580"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9F0-tu-OGU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="cymbal"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="398" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Cymbal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Htb-3H-KH0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nn9-rH-f0L">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="drink"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="280" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Drink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s2N-SV-JjF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AI0-Sx-VZf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="eat"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="167" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Eat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tct-r3-pn7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqf-E0-VvF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="scratch"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="302" y="398" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Scartch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dd5-Sn-gQm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amb-kX-w1q">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="pie"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="302" y="280" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Pie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G5x-hr-wbN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUL-d6-lqr">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="fart"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="302" y="167" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Fart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4FP-Nw-sd4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="BA2-e4-RIJ"/>
+                                <exclude reference="9F0-tu-OGU"/>
+                                <exclude reference="nn9-rH-f0L"/>
+                                <exclude reference="AI0-Sx-VZf"/>
+                                <exclude reference="hqf-E0-VvF"/>
+                                <exclude reference="amb-kX-w1q"/>
+                                <exclude reference="VUL-d6-lqr"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="BA2-e4-RIJ"/>
+                                <include reference="9F0-tu-OGU"/>
+                                <include reference="nn9-rH-f0L"/>
+                                <include reference="AI0-Sx-VZf"/>
+                                <include reference="hqf-E0-VvF"/>
+                                <include reference="amb-kX-w1q"/>
+                                <include reference="VUL-d6-lqr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="CymbalButton" destination="9F0-tu-OGU" id="pqm-CK-tIm"/>
+                        <outlet property="DrinkButton" destination="nn9-rH-f0L" id="1Fe-Lo-lK8"/>
+                        <outlet property="EatButton" destination="AI0-Sx-VZf" id="wUF-ZU-D2k"/>
+                        <outlet property="FartButton" destination="VUL-d6-lqr" id="PIh-lc-toQ"/>
+                        <outlet property="MyImage" destination="BA2-e4-RIJ" id="4hR-op-rTa"/>
+                        <outlet property="PieButton" destination="VUL-d6-lqr" id="T7c-Ae-ohz"/>
+                        <outlet property="ScartchButton" destination="hqf-E0-VvF" id="9Wa-oU-ABv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="367.5" y="300"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cymbal" width="60" height="60"/>
+        <image name="drink" width="60" height="60"/>
+        <image name="eat" width="60" height="60"/>
+        <image name="fart" width="60" height="60"/>
+        <image name="pie" width="60" height="60"/>
+        <image name="scratch" width="60" height="60"/>
+    </resources>
+</document>

@@ -22,22 +22,6 @@
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    [[self medium]setImage:[UIImage imageNamed:@"111111"]];
-    _index = 1;
-    [_up setText:[NSString stringWithFormat:@"%d/5",_index]];
-    _plistPath = [[NSBundle mainBundle] pathForResource:@"imageData" ofType:@"plist"];
-    _plist = [[NSMutableArray alloc] initWithContentsOfFile:_plistPath];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 -(void)checkButtonColorAndAll
 {
     NSDictionary *dict = [_plist objectAtIndex:_index-1];
@@ -61,6 +45,23 @@
         [self.rightButton setImage:[UIImage imageNamed:@"right_highlighted"]forState:UIControlStateNormal];
     }
 }
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    [[self medium]setImage:[UIImage imageNamed:@"111111"]];
+    _index = 1;
+    [_up setText:[NSString stringWithFormat:@"%d/5",_index]];
+    _plistPath = [[NSBundle mainBundle] pathForResource:@"imageData" ofType:@"plist"];
+    _plist = [[NSMutableArray alloc] initWithContentsOfFile:_plistPath];
+    [self checkButtonColorAndAll];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
 
 - (IBAction)leftClick:(id)sender {
  
