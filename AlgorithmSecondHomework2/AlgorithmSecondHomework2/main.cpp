@@ -20,6 +20,26 @@ int mymin(int a,int b)
     return b;
 }
 
+int mymin(int a,int b,int c)
+{
+    if(a<b)
+    {
+        if(a<c)
+            return a;
+    }
+    else if(b<a)
+    {
+        if(b<c)
+            return b;
+    }
+    return c;
+}
+
+int dist(char a,char b)
+{
+    return (abs('a'-'b'));
+}
+
 int solve(string s1,string s2,int k)
 {
     int dp[1000][1000];
@@ -38,7 +58,7 @@ int solve(string s1,string s2,int k)
     {
         for(int j =1;j <=length2 ; j++)
         {
-            dp[i][j] = mymin(dp[i-1][j-1]+abs(s1[i-1]-s2[j-1]),mymin(dp[i-1][j],dp[i][j-1])+k);
+           dp[i][j] = mymin(dp[i-1][j-1]+abs(s1[i-1]-s2[j-1]),mymin(dp[i-1][j],dp[i][j-1])+k);
         }
     }
     return dp[length1][length2];
