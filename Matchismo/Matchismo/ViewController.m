@@ -58,9 +58,6 @@
         Card *card = [self.deck drawRandomCard];
         if(card)
         {
-        
-            [sender setBackgroundImage:[UIImage imageNamed:@"cardFront"]
-                          forState:UIControlStateNormal];
         /*我的方法1
          NSString *t1 = [[PlayingCard validsuits] objectAtIndex:arc4random()%4];
         NSString *t2 = [[PlayingCard rankStrings] objectAtIndex:arc4random()%13+1];*/
@@ -69,6 +66,9 @@
         [t1 appendString:[[PlayingCard validsuits] objectAtIndex:arc4random()%4]];
         PlsayingCard *t = [self.mycarddeck drawRandomCard];
         NSString *suit = [t contents];*/
+            
+            [sender setBackgroundImage:[UIImage imageNamed:@"cardFront"]
+                              forState:UIControlStateNormal];
             [sender setTitle:card.contents forState:UIControlStateNormal];
             self.flipCount++;
         }

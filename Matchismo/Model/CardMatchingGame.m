@@ -32,10 +32,23 @@
         for(int i = 0; i < count; i++)
         {
             Card *card = [deck drawRandomCard];
-            self.cards[i] = card;
+            if(card)
+            {
+                [self.cards addObject:card];
+            }
+            else
+            {
+                self = nil;
+                break;
+            }
         }
     }
     return self;
+}
+
+-(Card *)cardAtIndex:(NSUInteger)index
+{
+    return (index<[self.cards count]) ? self.cards[index] : nil;
 }
 
 @end
