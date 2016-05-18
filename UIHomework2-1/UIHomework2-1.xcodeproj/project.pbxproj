@@ -13,6 +13,11 @@
 		9A1042DD1CEB2FBD0055B529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1042DB1CEB2FBD0055B529 /* Main.storyboard */; };
 		9A1042DF1CEB2FBD0055B529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1042DE1CEB2FBD0055B529 /* Assets.xcassets */; };
 		9A1042E21CEB2FBD0055B529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1042E01CEB2FBD0055B529 /* LaunchScreen.storyboard */; };
+		9A49C9731CEBF36F0046232E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C9721CEBF36F0046232E /* HomeViewController.m */; };
+		9A49C9761CEBF4070046232E /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C9751CEBF4070046232E /* MessageViewController.m */; };
+		9A49C9791CEBF4C70046232E /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C9781CEBF4C70046232E /* DiscoverViewController.m */; };
+		9A49C97C1CEBF4EB0046232E /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C97B1CEBF4EB0046232E /* AddViewController.m */; };
+		9A49C97F1CEBF5030046232E /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A49C97E1CEBF5030046232E /* MeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		9A1042DE1CEB2FBD0055B529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1042E11CEB2FBD0055B529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A1042E31CEB2FBD0055B529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A49C9711CEBF36F0046232E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9A49C9721CEBF36F0046232E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9A49C9741CEBF4070046232E /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		9A49C9751CEBF4070046232E /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		9A49C9771CEBF4C70046232E /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		9A49C9781CEBF4C70046232E /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		9A49C97A1CEBF4EB0046232E /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		9A49C97B1CEBF4EB0046232E /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		9A49C97D1CEBF5030046232E /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		9A49C97E1CEBF5030046232E /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +82,16 @@
 				9A1042E01CEB2FBD0055B529 /* LaunchScreen.storyboard */,
 				9A1042E31CEB2FBD0055B529 /* Info.plist */,
 				9A1042D21CEB2FBC0055B529 /* Supporting Files */,
+				9A49C9711CEBF36F0046232E /* HomeViewController.h */,
+				9A49C9721CEBF36F0046232E /* HomeViewController.m */,
+				9A49C9741CEBF4070046232E /* MessageViewController.h */,
+				9A49C9751CEBF4070046232E /* MessageViewController.m */,
+				9A49C9771CEBF4C70046232E /* DiscoverViewController.h */,
+				9A49C9781CEBF4C70046232E /* DiscoverViewController.m */,
+				9A49C97A1CEBF4EB0046232E /* AddViewController.h */,
+				9A49C97B1CEBF4EB0046232E /* AddViewController.m */,
+				9A49C97D1CEBF5030046232E /* MeViewController.h */,
+				9A49C97E1CEBF5030046232E /* MeViewController.m */,
 			);
 			path = "UIHomework2-1";
 			sourceTree = "<group>";
@@ -151,8 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1042DA1CEB2FBC0055B529 /* ViewController.m in Sources */,
+				9A49C9791CEBF4C70046232E /* DiscoverViewController.m in Sources */,
+				9A49C9761CEBF4070046232E /* MessageViewController.m in Sources */,
+				9A49C97C1CEBF4EB0046232E /* AddViewController.m in Sources */,
 				9A1042D71CEB2FBC0055B529 /* AppDelegate.m in Sources */,
 				9A1042D41CEB2FBC0055B529 /* main.m in Sources */,
+				9A49C97F1CEBF5030046232E /* MeViewController.m in Sources */,
+				9A49C9731CEBF36F0046232E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +333,7 @@
 				9A1042E81CEB2FBD0055B529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
