@@ -22,20 +22,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="166" y="289" width="69" height="21"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8OF-R8-n7g" firstAttribute="centerX" secondItem="PqL-Zr-SLJ" secondAttribute="centerX" id="8pv-ze-fzs"/>
+                            <constraint firstItem="8OF-R8-n7g" firstAttribute="centerY" secondItem="PqL-Zr-SLJ" secondAttribute="centerY" id="vRh-X2-cMl"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="8OF-R8-n7g"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8pv-ze-fzs"/>
+                                <exclude reference="vRh-X2-cMl"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="8OF-R8-n7g"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8pv-ze-fzs"/>
+                                <include reference="vRh-X2-cMl"/>
                             </mask>
                         </variation>
                     </view>
@@ -62,20 +71,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="178" y="289" width="44" height="21"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A0K-mb-nMG" firstAttribute="centerY" secondItem="Slw-b8-XHe" secondAttribute="centerY" id="KaC-RP-0W2"/>
+                            <constraint firstItem="A0K-mb-nMG" firstAttribute="centerX" secondItem="Slw-b8-XHe" secondAttribute="centerX" id="SE9-1Y-ecf"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="A0K-mb-nMG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="KaC-RP-0W2"/>
+                                <exclude reference="SE9-1Y-ecf"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="A0K-mb-nMG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="KaC-RP-0W2"/>
+                                <include reference="SE9-1Y-ecf"/>
                             </mask>
                         </variation>
                     </view>
@@ -102,20 +120,38 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="147" y="289" width="65" height="21"/>
-                                </variation>
                             </label>
+                            <searchBar contentMode="redraw" text="大家都在搜" translatesAutoresizingMaskIntoConstraints="NO" id="tuN-uA-dpH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="38" width="400" height="44"/>
+                                </variation>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d9W-ct-bTo" firstAttribute="centerX" secondItem="ZdA-pE-z1c" secondAttribute="centerX" id="Zzk-UD-hfc"/>
+                            <constraint firstItem="d9W-ct-bTo" firstAttribute="centerY" secondItem="ZdA-pE-z1c" secondAttribute="centerY" id="xFv-pJ-3lm"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="d9W-ct-bTo"/>
+                                <exclude reference="tuN-uA-dpH"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Zzk-UD-hfc"/>
+                                <exclude reference="xFv-pJ-3lm"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="d9W-ct-bTo"/>
+                                <include reference="tuN-uA-dpH"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Zzk-UD-hfc"/>
+                                <include reference="xFv-pJ-3lm"/>
                             </mask>
                         </variation>
                     </view>
@@ -142,20 +178,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="203" y="289" width="30" height="21"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HQB-fw-qD4" firstAttribute="centerX" secondItem="aD9-k6-v2O" secondAttribute="centerX" id="YRa-fY-l8q"/>
+                            <constraint firstItem="HQB-fw-qD4" firstAttribute="centerY" secondItem="aD9-k6-v2O" secondAttribute="centerY" id="jV1-GO-kAu"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="HQB-fw-qD4"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="YRa-fY-l8q"/>
+                                <exclude reference="jV1-GO-kAu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="HQB-fw-qD4"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="YRa-fY-l8q"/>
+                                <include reference="jV1-GO-kAu"/>
                             </mask>
                         </variation>
                     </view>
@@ -176,7 +221,37 @@
                     <view key="view" contentMode="scaleToFill" id="UNs-Vi-G8N">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdV-3o-Jbp">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JdV-3o-Jbp" firstAttribute="centerX" secondItem="UNs-Vi-G8N" secondAttribute="centerX" id="bFv-x3-QWI"/>
+                            <constraint firstItem="JdV-3o-Jbp" firstAttribute="centerY" secondItem="UNs-Vi-G8N" secondAttribute="centerY" id="umf-fz-3Rw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JdV-3o-Jbp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="bFv-x3-QWI"/>
+                                <exclude reference="umf-fz-3Rw"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="JdV-3o-Jbp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="bFv-x3-QWI"/>
+                                <include reference="umf-fz-3Rw"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Me" image="tabbar_profile" selectedImage="tabbar_profile_selected" id="732-n8-KUx"/>
                 </viewController>

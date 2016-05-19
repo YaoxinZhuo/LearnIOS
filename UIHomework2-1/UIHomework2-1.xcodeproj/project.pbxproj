@@ -73,25 +73,16 @@
 		9A1042D11CEB2FBC0055B529 /* UIHomework2-1 */ = {
 			isa = PBXGroup;
 			children = (
-				9A1042D51CEB2FBC0055B529 /* AppDelegate.h */,
-				9A1042D61CEB2FBC0055B529 /* AppDelegate.m */,
-				9A1042D81CEB2FBC0055B529 /* ViewController.h */,
-				9A1042D91CEB2FBC0055B529 /* ViewController.m */,
+				9A49C9841CEC2BDF0046232E /* MeView */,
+				9A49C9831CEC2BCC0046232E /* DiscoverView */,
+				9A49C9821CEC2BC00046232E /* AddView */,
+				9A49C9811CEC2BAD0046232E /* MessageView */,
+				9A49C9801CEC2B9D0046232E /* HomeView */,
 				9A1042DB1CEB2FBD0055B529 /* Main.storyboard */,
-				9A1042DE1CEB2FBD0055B529 /* Assets.xcassets */,
 				9A1042E01CEB2FBD0055B529 /* LaunchScreen.storyboard */,
+				9A1042DE1CEB2FBD0055B529 /* Assets.xcassets */,
 				9A1042E31CEB2FBD0055B529 /* Info.plist */,
 				9A1042D21CEB2FBC0055B529 /* Supporting Files */,
-				9A49C9711CEBF36F0046232E /* HomeViewController.h */,
-				9A49C9721CEBF36F0046232E /* HomeViewController.m */,
-				9A49C9741CEBF4070046232E /* MessageViewController.h */,
-				9A49C9751CEBF4070046232E /* MessageViewController.m */,
-				9A49C9771CEBF4C70046232E /* DiscoverViewController.h */,
-				9A49C9781CEBF4C70046232E /* DiscoverViewController.m */,
-				9A49C97A1CEBF4EB0046232E /* AddViewController.h */,
-				9A49C97B1CEBF4EB0046232E /* AddViewController.m */,
-				9A49C97D1CEBF5030046232E /* MeViewController.h */,
-				9A49C97E1CEBF5030046232E /* MeViewController.m */,
 			);
 			path = "UIHomework2-1";
 			sourceTree = "<group>";
@@ -99,9 +90,58 @@
 		9A1042D21CEB2FBC0055B529 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A1042D51CEB2FBC0055B529 /* AppDelegate.h */,
+				9A1042D61CEB2FBC0055B529 /* AppDelegate.m */,
+				9A1042D81CEB2FBC0055B529 /* ViewController.h */,
+				9A1042D91CEB2FBC0055B529 /* ViewController.m */,
 				9A1042D31CEB2FBC0055B529 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A49C9801CEC2B9D0046232E /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9A49C9711CEBF36F0046232E /* HomeViewController.h */,
+				9A49C9721CEBF36F0046232E /* HomeViewController.m */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		9A49C9811CEC2BAD0046232E /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				9A49C9741CEBF4070046232E /* MessageViewController.h */,
+				9A49C9751CEBF4070046232E /* MessageViewController.m */,
+			);
+			name = MessageView;
+			sourceTree = "<group>";
+		};
+		9A49C9821CEC2BC00046232E /* AddView */ = {
+			isa = PBXGroup;
+			children = (
+				9A49C97A1CEBF4EB0046232E /* AddViewController.h */,
+				9A49C97B1CEBF4EB0046232E /* AddViewController.m */,
+			);
+			name = AddView;
+			sourceTree = "<group>";
+		};
+		9A49C9831CEC2BCC0046232E /* DiscoverView */ = {
+			isa = PBXGroup;
+			children = (
+				9A49C9771CEBF4C70046232E /* DiscoverViewController.h */,
+				9A49C9781CEBF4C70046232E /* DiscoverViewController.m */,
+			);
+			name = DiscoverView;
+			sourceTree = "<group>";
+		};
+		9A49C9841CEC2BDF0046232E /* MeView */ = {
+			isa = PBXGroup;
+			children = (
+				9A49C97D1CEBF5030046232E /* MeViewController.h */,
+				9A49C97E1CEBF5030046232E /* MeViewController.m */,
+			);
+			name = MeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
