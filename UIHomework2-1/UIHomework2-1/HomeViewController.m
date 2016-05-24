@@ -19,15 +19,14 @@
 {
     [super viewWillAppear:animated];
     [self.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor orangeColor]} forState:UIControlStateNormal];
-    [self.MediumLabel setNumberOfLines:(2)];
-    [self.MediumLabel setText:@"Follow someone,then you will get some suprises"];
-    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.tabBarItem.selectedImage = [self.tabBarItem.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [self.MediumLabel setText:@"Follow someone,then you will get some suprises"];
+    [self.MediumLabel setNumberOfLines:(2)];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
