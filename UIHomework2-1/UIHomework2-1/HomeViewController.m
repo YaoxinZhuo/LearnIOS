@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 
 @interface HomeViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *MediumLabel;
 
 @end
 
@@ -18,6 +19,9 @@
 {
     [super viewWillAppear:animated];
     [self.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor orangeColor]} forState:UIControlStateNormal];
+    [self.MediumLabel setNumberOfLines:(2)];
+    [self.MediumLabel setText:@"Follow someone,then you will get some suprises"];
+    
 }
 
 - (void)viewDidLoad {
