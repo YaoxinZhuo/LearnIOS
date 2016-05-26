@@ -26,7 +26,6 @@
     // Do any additional setup after loading the view.
     self.tabBarItem.selectedImage = [self.tabBarItem.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [self.MediumLabel setText:@"Follow someone,then you will get some suprises"];
-    [self.MediumLabel setNumberOfLines:(2)];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
