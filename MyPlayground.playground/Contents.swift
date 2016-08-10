@@ -2,6 +2,15 @@
 
 import UIKit
 
-let myVal1 = 1
-let myVal2 = 9.99
-var str = "Hello, playground"
+
+let optionalInt:Int? = 9
+let actualInt:Int = optionalInt!
+var myString = "abc"
+var possibleInt = Int(myString)
+print(possibleInt)
+
+var myArrary = ["a","b","c"]
+myArrary[1] = "z"
+myArrary
+print(myArrary)
+let emptyArrary = [String]()
