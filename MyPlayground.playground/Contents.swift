@@ -2,15 +2,17 @@
 
 import UIKit
 
-
-let optionalInt:Int? = 9
-let actualInt:Int = optionalInt!
-var myString = "abc"
-var possibleInt = Int(myString)
-print(possibleInt)
-
-var myArrary = ["a","b","c"]
-myArrary[1] = "z"
-myArrary
-print(myArrary)
 let emptyArrary = [String]()
+
+let vegetable = "red pepper"
+switch vegetable {
+case "celery":
+    let vegetableComment = "Add some raisins and make ants on a log."
+case "cucumber", "watercress":
+    let vegetableComment = "That would make a good tea sandwich."
+case let x where x.hasSuffix("pepper"):
+    let vegetableComment = "Is it a spicy \(x)?"
+default:
+    let vegetableComment = "Everything tastes good in soup."
+}
+for i in 0..<4 {}
