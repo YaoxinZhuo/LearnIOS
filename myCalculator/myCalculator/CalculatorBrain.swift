@@ -28,7 +28,7 @@ class CalculatorBrain
     enum Operation
     {
         case Constant(Double)
-        case UnaryOperation((Double) -> (Double))
+        case UnaryOperation((Double) -> Double)
         case BinryOperation
         case Equals
     }
@@ -44,8 +44,8 @@ class CalculatorBrain
         {
             switch operation
             {
-            case Operation.Constant(let value): accumulator = value; break
-            case .UnaryOperation(let function): accumulator = function(accumulator); break
+            case .Constant(let value): accumulator = value
+            case .UnaryOperation(let function): accumulator = function(accumulator)
             case .BinryOperation:break
             case .Equals:break
             }
