@@ -23,7 +23,7 @@ class ViewController: UIViewController
             display.text = String(newValue)
         }
     }
-    
+    private var brain = CalculatorBrain()
     
     @IBOutlet private weak var display: UILabel!
     
@@ -45,19 +45,16 @@ class ViewController: UIViewController
     }
     @IBAction private func performOperation(sender: UIButton)
     {
-        
-        userIsInTheMiddleOfTyping = false
+        if userIsInTheMiddleOfTyping
+        {
+            brain.setOperant(displayValue)
+            userIsInTheMiddleOfTyping = false
+        }
         if let mathmaticalSymbol = sender.currentTitle
         {
-            if mathmaticalSymbol == "π"
-            {
-                displayValue = M_PI
-            }
-            else if mathmaticalSymbol == "√"
-            {
-                displayValue = sqrt(displayValue)
-            }
+            brain.performOperation(mathmaticalSymbol)
         }
+        displayValue = brain.result
     }
 
 }
