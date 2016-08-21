@@ -34,20 +34,8 @@ class ViewController: UIViewController
     @IBAction private func touchDigit(sender: UIButton)
     {
         //my way to allow legal floating numbers is create a bool named:userInputDot
-        var digit = sender.currentTitle!
-        if digit == "."
-        {
-            if userInputDot //if input a dot
-            {
-                digit = " "
-                userIsInTheMiddleOfTyping = false
-                userInputDot = false
-            }
-            else
-            {
-                userInputDot = true
-            }
-        }
+        let digit = sender.currentTitle!
+        
     
         if userIsInTheMiddleOfTyping//如果正在输入会继续添加数字
         {
@@ -60,6 +48,20 @@ class ViewController: UIViewController
         }
         //最终的状态都要记得变为正在输入了
         userIsInTheMiddleOfTyping = true
+        if digit == "."
+        {
+            if userInputDot //if input a dot
+            {
+                display.text = "0"
+                userIsInTheMiddleOfTyping = false
+                userInputDot = false
+            }
+            else
+            {
+                userInputDot = true
+            }
+        }
+        
     }
     @IBAction private func performOperation(sender: UIButton)
     {
