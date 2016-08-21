@@ -12,6 +12,7 @@ class ViewController: UIViewController
 {
     //userIsInTheMiddleOfTyping用户是否正在输入的bool变量
     private var userIsInTheMiddleOfTyping = false
+    private var userInputDot = false
     //计算器上面显示的变量，显示是string变量，所以要在double和string间转换
     private var displayValue:Double
     {
@@ -32,8 +33,22 @@ class ViewController: UIViewController
     //数字，包括小数点
     @IBAction private func touchDigit(sender: UIButton)
     {
-        
-        let digit = sender.currentTitle!
+        //my way to allow legal floating numbers is create a bool named:userInputDot
+        var digit = sender.currentTitle!
+        if digit == "."
+        {
+            if userInputDot //if input a dot
+            {
+                digit = " "
+                userIsInTheMiddleOfTyping = false
+                userInputDot = false
+            }
+            else
+            {
+                userInputDot = true
+            }
+        }
+    
         if userIsInTheMiddleOfTyping//如果正在输入会继续添加数字
         {
             let textCurrentInDisplay = display!.text!
