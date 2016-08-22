@@ -16,6 +16,8 @@ class CalculatorBrain
     //pending（悬而未决的）当前在计算器brain中还没有执行完毕的数和操作符，所以optional
     private var pending:PendingBinaryOperation?
     //result 返回accumulator中的结果
+    
+    //
     var result: Double
     {
         get
