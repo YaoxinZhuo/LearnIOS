@@ -72,6 +72,7 @@ class CalculatorBrain
             }
         }
     }
+    
     //为了方便提取出的执行双操作数计算，如果缓存不空，就要计算，否则啥也不做
     private func executePendingBinaryOperation()
     {
