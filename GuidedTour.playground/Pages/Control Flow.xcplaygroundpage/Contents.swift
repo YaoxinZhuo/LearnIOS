@@ -72,6 +72,7 @@ var largest = 0
 for (kind, numbers) in interestingNumbers {
     for number in numbers {
         if number > largest {
+            print(largest)
             largest = number
         }
     }
