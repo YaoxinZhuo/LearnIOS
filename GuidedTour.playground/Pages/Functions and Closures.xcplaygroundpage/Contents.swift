@@ -44,6 +44,18 @@ func sumOf(numbers: Int...) -> Int {
 sumOf()
 sumOf(42, 597, 12)
 
+func aveOf(mynumbers:Int...) -> Double
+{
+    var ave:Double = 0.0;
+    var nums = 0;
+    for mynumber in mynumbers
+    {
+        nums += 1
+        ave += Double(mynumber)
+    }
+    return ave/(Double(nums))
+}
+aveOf(1,2,3,4,5)
 //: - Experiment:
 //: Write a function that calculates the average of its arguments.
 //:
@@ -89,8 +101,12 @@ hasAnyMatches(numbers, condition: lessThanTen)
 //: Functions are actually a special case of closures: blocks of code that can be called later. The code in a closure has access to things like variables and functions that were available in the scope where the closure was created, even if the closure is in a different scope when it is executed—you saw an example of this already with nested functions. You can write a closure without a name by surrounding code with braces (`{}`). Use `in` to separate the arguments and return type from the body.
 //:
 numbers.map({
-    (number: Int) -> Int in
-    let result = 3 * number
+    (number: Int) -> Int in numbers //numbers can be saved.swift can speculate it
+    var result = 3 * number
+    if number%2 != 0
+    {
+        result = 0
+    }
     return result
 })
 
