@@ -4,6 +4,10 @@
 //:
 class Shape {
     var numberOfSides = 0
+    let number = 0
+    func doubleDescription(Number:Int) -> Int {
+        return number * Number * 2
+    }
     func simpleDescription() -> String {
         return "A shape with \(numberOfSides) sides."
     }
@@ -58,7 +62,25 @@ class Square: NamedShape {
         return "A square with sides of length \(sideLength)."
     }
 }
+import Darwin
+class Circle: NamedShape {
+    var radius :Double
+    init(name: String,radius: Double) {
+        self.radius = radius
+        super.init(name: name)
+        numberOfSides = 1
+    }
+    func area() -> Double {
+        return M_PI * radius * radius
+    }
+    override func simpleDescription() -> String {
+        return "A circle with sides of area \(area())"
+    }
+}
 let test = Square(sideLength: 5.2, name: "my test square")
+let test1 = Circle(name: "my circle", radius: 2)
+test1.area()
+test1.simpleDescription()
 test.area()
 test.simpleDescription()
 
@@ -71,8 +93,9 @@ class EquilateralTriangle: NamedShape {
     var sideLength: Double = 0.0
 
     init(sideLength: Double, name: String) {
-        self.sideLength = sideLength
+        
         super.init(name: name)
+        self.sideLength = sideLength
         numberOfSides = 3
     }
 
