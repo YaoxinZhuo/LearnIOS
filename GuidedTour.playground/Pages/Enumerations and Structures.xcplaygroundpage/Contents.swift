@@ -21,7 +21,20 @@ enum Rank: Int {
         }
     }
 }
+    func compareValues(cp1:Rank,cp2:Rank) -> Bool
+    {
+        if(cp1.simpleDescription()>cp2.simpleDescription())
+        {
+            return true
+        }
+        else
+        {
+            return false
+        }
+    }
 let ace = Rank.Ace
+let two = Rank.Two
+compareValues(cp1: ace, cp2: two)
 let aceRawValue = ace.rawValue
 
 //: - Experiment:

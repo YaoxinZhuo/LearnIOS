@@ -37,3 +37,5 @@ enum Rank: Int {
 }
 let ace = Rank.Jack
 let aceRawValue = ace.rawValue
+var message = "sdhiajASDNJs"
+message = message.lowercaseString + "abc"
